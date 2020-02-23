@@ -5,12 +5,12 @@ Author pharnoux
 
 
 """
-
 import os
 import argparse
-import model_training.sentiment_dataset as sentiment_dataset
-import model_training.sentiment_model_cnn as sentiment_model_cnn
-import model_training.config_holder as config_holder
+import sentiment_dataset as sentiment_dataset
+import sentiment_model_cnn as sentiment_model_cnn
+import config_holder as config_holder
+
 
 def main(args):
     """

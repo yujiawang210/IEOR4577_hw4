@@ -10,7 +10,8 @@ import json
 import math
 import tensorflow as tf
 import numpy as np
-from tensorflow.data import Dataset
+# from tensorflow.data import Dataset
+from tensorflow.python.data import Dataset
 
 def train_input_fn(training_dir, config):
     return _input_fn(training_dir, config, "train")
@@ -44,7 +45,7 @@ def _load_json_file(json_path, config):
                     "The size of the features of the entry with twitterid {} was not expected".format(
                         entry["twitterid"]))
 
-            labels.append(entry["sentiment"] / 4)
+            labels.append(float(entry["sentiment"]) / 4)
             features.append(entry["features"])
 
     return features, labels

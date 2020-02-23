@@ -1,8 +1,8 @@
 {
-    "embeddings_dictionary_size": ...,
-    "embeddings_vector_size": ...,
-    "padding_size": ...,
+    "embeddings_dictionary_size": 50000,
+    "embeddings_vector_size": 1,
+    "padding_size": 20,
     "batch_size": 100,
-    "embeddings_path": "...",
+    "embeddings_path": "/Users/a781424259/Desktop/AI&OR IN CLOUD/assignment 4/Assignment_4/glove.twitter.27B.25d.txt",
     "input_tensor_name": "embedding_input"
 }
