@@ -52,5 +52,4 @@ def save_model(model, output):
     model.save(output)
 
     # tf.saved_model.save(model, os.path.join(output, "1"))
-
     print("Model successfully saved at: {}".format(output))

@@ -3,6 +3,6 @@
     "embeddings_vector_size": 1,
     "padding_size": 20,
     "batch_size": 100,
-    "embeddings_path": "/Users/a781424259/Desktop/AI&OR IN CLOUD/assignment 4/Assignment_4/glove.twitter.27B.25d.txt",
+    "embeddings_path": "/Users/yujiawang/Documents/IEOR 4577 AI & OR in the Cloud/Assignments/Assignment 4/IEOR4577_hw4/glove.twitter.27B.25d.txt",
     "input_tensor_name": "embedding_input"
 }
