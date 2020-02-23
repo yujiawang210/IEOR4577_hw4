@@ -1,3 +1,8 @@
+IEOR 4577 Assignment 04
+Xinyue Tian (xt2230), 
+Yujia Wang (yw3400), 
+Qian Wu (qw2306)
+
 Requirement:
 python3==3.7.3
 tensorflow==1.14
